@@ -1,4 +1,4 @@
-const ProductController = require('../controllers/productController');
+const ProductController = require('../controllers/productController.js');
 const router = require('express').Router()
 
 router.get('/', ProductController.GetAllProducts)

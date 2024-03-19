@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const ProductRoute = require("./routes/ProductRoute");
+const ProductRoute = require("./routes/ProductRoute.js");
 
 const app = express();
 mongoose.connect('mongodb+srv://mchihuynhwork:IFvTIZuaCikqTomR@cluster0.qjz1e7m.mongodb.net/')
